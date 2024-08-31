@@ -4,8 +4,9 @@
 
 Реализация должна удовлетворять интерфейсу:
 
-
+```go
 type Cache interface {
     Set(k, v string)
     Get(k string) (v string, ok bool)
 }
+```
